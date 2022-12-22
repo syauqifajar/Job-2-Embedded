@@ -47,7 +47,8 @@ https://user-images.githubusercontent.com/121158751/209138898-85547518-d286-499c
 
 
 
-Berdasarkan hasl dari percobaan di atas, apabila sensor disentuh maka LED akan menyala blink dan mati apabila sensor tidak tersentuh
+Berdasarkan hasil dari percobaan di atas, apabila ujung kabel  disentuh maka lampu LED akan menyala blink/berkedip dan apabila tidak disentun maka 
+lampu tidak menyala
 
 Percobaan b. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
@@ -85,10 +86,26 @@ di atas 35 derajat celsius maka lampu led akan menyala berkedip.
 
 Perobaan c.  Mengakses Sensor RFID (SPI Communication)
 
+1. Buatlah rangkaian seperti pada gambar di bawah ini.
+
 Memiliki bentuk rangkaian sebagai berikut,
 
 <img width="395" alt="percobaan c" src="https://user-images.githubusercontent.com/121158751/208879598-304ccadb-5682-4ecd-a946-67244f2288dc.png">
 
+2. Install Library MFRC522 dari Library Manager.
+
+3. Dekatkan kartu atau Tag RFID ke RFID Reader. Amati dan analisis cara kerja 
+programnya.
+
+4. Buatlah program agar Tag RFID yang terbaca sebelumya dapat digunakan 
+untuk hak akses. Apabila Tag RFID didekatkan pada Reader, maka LED 
+Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi 
+semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses 
+Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED 
+Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan 
+tertampil pesan “Akses Ditolak”. Gunakan Tag RFID lain untuk mencoba.
+
+5. Amati yang terjadi, analisis dan dokumentasikan hasilnya.
 
 Hasil Percobaan:
 
@@ -97,6 +114,4 @@ https://user-images.githubusercontent.com/121158751/208879635-2a115e1a-c3b1-4a97
 
 
 
-
-Berdasarkan percobaan di atas, cara kerja dari percobaan ini adalah dengan menggunakan sensor dan kartu yang akan terdeteksi oleh sensor tersebut,
-apabila sensor mendeteksi kartu maka pada serial monitor akan muncul pemberitahuan bahwa Akses diterima.
+Berdasarkan percobaan di atas, cara kerja dari percobaan ini adalah dengan menggunakan sensor dan Tag RFID yang akan terdeteksi oleh sensor tersebut, saat Tag RFID yang dikenali didekatkan pada Reader , LED Hijau menyala dan servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor tertampil pesan “Akses Diterima, Silahkan Masuk”. 
