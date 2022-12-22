@@ -51,10 +51,26 @@ Berdasarkan hasl dari percobaan di atas, apabila sensor disentuh maka LED akan m
 
 Percobaan b. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
-Memiliki bentuk rangkaian sebagai berikut,
+Langkah Kerja:
+
+1. Buatlah rangkaian seperti pada Gambar di bawah ini.
 
 <img width="257" alt="percobaan b" src="https://user-images.githubusercontent.com/121158751/208879478-abd0826e-1af3-47d3-bdab-9831c6194879.png">
 
+2. Install library sensor DHT 11 melalui Sketch > Include Library > Manage 
+Libraries. Ketikkan DHT pada kolom pencarian, pilih library yang akan 
+diinstall seperti pada Gambar berikut ini. Kemudian install juga Adafruit 
+Unified Sensor menggunakan cara yang sama.
+
+3. Buatlah program seperti pada script di bawah ini untuk mengakses sensor 
+DHT11. Kemudian upload program tersebut pada ESP32 dan 
+dokumentasikan hasilnya. (sudah terlampir pada file)
+
+4. Buatlah program agar ketika suhu rungan mencapai 30 derajat celcius, maka 
+ESP32 akan menyalakan LED Merah dan buzzer secara beep (blink). Apabila 
+suhu dibawah 30 derajat, ESP32 akan mematikan buzzer dan menyalakan 
+LED berbentuk running LED seperti pada Percobaan A. Kemudian 
+dokumentasikan hasilnya
 
 Hasil Percobaan :
 
