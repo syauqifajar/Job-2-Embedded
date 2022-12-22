@@ -12,7 +12,11 @@ Memiliki bentuk rangkaian sebagai berikut,
 Hasil Percobaan :
 
 
-https://user-images.githubusercontent.com/121158751/208879422-7cbb52ee-b177-4187-88a9-e140bff36aea.mp4
+
+
+https://user-images.githubusercontent.com/121158751/209138898-85547518-d286-499c-b541-742173831868.mp4
+
+
 
 
 Berdasarkan hasl dari percobaan di atas, apabila sensor disentuh maka LED akan menyala blink dan mati apabila sensor tidak tersentuh
