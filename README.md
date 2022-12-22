@@ -8,6 +8,34 @@ Memiliki bentuk rangkaian sebagai berikut,
 
 <img width="234" alt="Percobaan a" src="https://user-images.githubusercontent.com/121158751/208879373-58bbe23a-3675-4701-a52f-ca35cd3d230a.png">
 
+Langkah Kerja :
+
+A. ESP32 Capacitive Touch Sensor
+
+1. Hubungkan kabel jumper Male-to-Female pada Pin D4 ESP32.
+
+2. Buka Arduino IDE dan upload script program berikut ke ESP32.
+
+3. Buka serial monitor untuk melihat raw data. Ubah tampilan serial monitor 
+menjadi Serial Plotter pada menu Tools > Serial Plotter. 
+
+4. Sentuh ujung kabel jumper dan amati yang terjadi, kemudian dokumentasikan 
+hasilnya.
+
+5. Buatlah rangkaian seperti di atas.
+
+6. Buatlah program agar LED menyala ketika sensor disentuh, dan LED akan 
+mati ketika sensor tidak disentuh.
+
+7. Buatlah program agar ketika sensor disentuh, LED menyala Blink.
+
+8. Buatlah program agar ketika LED menyala, maka pada Serial Monitor akan 
+menampilkan angka yang akan bertambah setiap kali sensor disentuh.
+
+9. Tambahkan 2 LED sehingga pada rangkaian terdapat 3 LED. Buatlah 
+program agar ketika sensor disentuh, LED menyala menjadi running LED. 
+Nyala running LED tersebut adalah bergerak dari kiri ke kanan, kemudian 
+kanan ke kiri secara kontinyu
 
 Hasil Percobaan :
 
